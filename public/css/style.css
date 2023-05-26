@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    background-color: #9e9e9e33;
+}
+
+.uppernavbg {
+    background-color: #9e9e9e33;
+    cursor: default;
+
+}
+
+.uppernavpadding {
+    padding-left: 280px;
+    cursor: default;
+}
+
+.uppernavbutton {
+    border: none;
+    outline: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.uppernavbutton:hover {
+    color: #f85606;
+    text-decoration: underline;
+}
+
+
+#active {
+    color: #e96522;
+}
+
+/* LOGO BG */
+
+.logobg {
+    background-color: rgb(255, 255, 255);
+}
+
+.logopadding {
+    padding-top: 15px;
+    padding-left: 120px;
+    height: 75px;
+    display: flex;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.searchpadding {
+    padding-left: 170px;
+    padding-top: 2px;
+    display: flex;
+}
+
+.searcharea {
+    height: 50px;
+    width: 650px;
+    background-color: #9e9e9e33;
+    border: none;
+    padding: 13px 19px;
+    outline: none;
+}
+
+/* Search button */
+
+.mainsearchbutton {
+    color: #fff;
+    background-color: #e96522;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Cart button */
+
+.cartpadding {
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.cartbutton {
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Offer */
+
+.offerpadding {
+    padding-left: 50px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+
+/* Catagories */
+
+.catagoriespadding {
+    padding-left: 250px;
+}
+
+.catargies {
+    text-align: justify;
+}
+
+.catagoriesbackground {
+    background-color: #fff;
+    height: 370px;
+    width: 960px;
+    padding-top: 15px;
+    padding-left: 5px;
+    display: flex;
+}
+
+/* Catagories Button */
+
+.catagoriesbutton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.catagoriesbutton:hover {
+    background-color: rgb(248, 223, 190);
+    width: 145px;
+}
+
+/* Slider */
+
+.slider {
+    display: flex;
+}
+
+.sliderpadding {
+    padding-left: 150px;
+}
+
+.sliderimg {
+    padding-bottom: 5px;
+}
+
+/* Offer */
+
+.offer {
+    text-align: center;
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+/* Mini catagories  */
+
+.minicatagoriesbuttonpadding {
+    padding-left: 225px;
+    padding-top: 10px;
+}
+
+.minicatagoriesbutton {
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 25px;
+    width: 145px;
+    border-radius: 50px;
+    outline: none;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+/* Mini mart button hover */
+
+.minicatagoriesbutton:hover {
+    box-shadow: 8px 8px 1px #9e9e9e33;
+}
+
+/* On sale now */
+
+.onsalenowpadding {
+    padding-top: 25px;
+    padding-left: 228px;
+}
+
+
+.onsalenowbox {
+    height: 45px;
+    width: 940px;
+    /* border: 1px solid gray; */
+}
+
+.onsalenowtitle {
+    color: #f85606;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+.onsalenow {
+    margin: 0px 25px;
+}
+
+.onsalenowspan {
+    display: flex;
+}
+
+.onsalenowending {
+    margin: 0px 5px;
+}
+
+/* On sale timer */
+
+.saletime {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f85606;
+    color: #fff;
+    margin: 0px 5px;
+}
+
+/* Flash Time Title */
+
+.flashtimetitle {
+    margin: 1px 45px;
+}
+
+.flashtimeheading {
+    font-size: 35px;
+}
+
+/* Shop More */
+
+.shopmorepadding {
+    padding-left: 291px;
+    padding-top: 5px;
+}
+
+.shopmorebutton{
+    background-color: #9e9e9e33;
+    border: 1px solid #e96522;
+    color: #f85606;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Shop More Hover */
+
+.shopmorebutton:hover{
+    background-color: #e96522;
+    color: #fff;
+    box-shadow: 10px 10px 15px rgb(167, 159, 159);
+}
+
+/* Product */
+
+.productspadding{
+    padding-left: 255px;
+}
+
+
+.products{
+    height: 600px;
+    width: 950px;
+    border-top: 1px solid gray;
+    margin: 5px 0px;
+    background-color: #fff;
+}
+
+/* Product item  */
+
+.productitempadding{
+    padding-left: 45px;
+    padding-top: 25px;
+    display: flex;
+}
+
+.productsitem{
+    height: 290px;
+    width: 160px;
+    /* border: 1px solid gray; */
+    cursor: pointer;
+
+}
+
+/* Product item Hover */
+
+.productsitem:hover{
+    box-shadow: 5px 2px 5px 1px gray;
+    
+}
+
+.producttitle{
+    color: rgb(16, 151, 151);
+}
+
+.price{
+    color: #f85606;
+    margin: 25px 0px;
+}
+
+.cutprice{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.discountinpercent{
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.free{
+    color: #e96522;
+    font-size: 16px;
+}
+
+/* Product Second */
+
+.newproduct{
+    padding-left: 75px;
+}
+
+/* Procuct item padding second row */
+
+.productitempaddingsecondrow{
+    padding-top: 105px;
+}
+
+.productitempaddingsecondrow{
+    padding-left: 65px;
+    padding-top: 25px;
+    display: flex;
+}
+
+/* Iphone */
