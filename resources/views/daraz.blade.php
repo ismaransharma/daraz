@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="{{ url('images/darazsmalllogo.jpeg')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url('css/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
 
 <body>
